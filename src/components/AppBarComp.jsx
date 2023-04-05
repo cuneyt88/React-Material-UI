@@ -36,7 +36,7 @@ function AppBarComp() {
   };
 
   return (
-    <AppBar position="static" color='secondary'>
+    <AppBar position="static"  sx={{background:"rgb(239 68 68)"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <LibraryBooksIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
